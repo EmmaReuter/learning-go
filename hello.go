@@ -3,9 +3,10 @@ package main
 import (
 	"fmt"
 
-	"rsc.io/quote"
+	"time"
 )
 
 func main() {
-	fmt.Println(quote.Opt())
+	fmt.Println("playground")
+	fmt.Println("The time is", time.Now())
 }
